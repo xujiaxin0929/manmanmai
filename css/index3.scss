@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+//变量
+@import "./setting";
+
+@import "./normalize";
+
+//清除样式
+@import "./base";
+
+//媒体查询
+@import "./media";
+
+//头部
+@import "./header";
+
+//中间
+@import "./main1";
+
+//底部
+@import "./footer";
+
+
+.main3{
+   position: relative;
+   .food{
+     filter: blur(8px);
+   }
+  .footer{
+    z-index: 60;
+  }
+  .main3-mask{
+    width: (749rem/30);
+    height: (1160rem/30);
+    background-color: rgba(7,17,27,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    position: fixed;
+  }
+}
+.main3-pos{
+  width: (749rem/30);
+  height: (518rem/30);
+  position: absolute;
+  bottom: (-74rem/30);
+  left: 0;
+  .main2-top{
+    width: (749rem/30);
+    height: (78rem/30);
+    background-color: #f3f5f7;
+    border-bottom: 2px solid #dbdee1;
+    .main3-span{
+      float: left;
+      font-size: (28rem/30);
+      color: rgb(7,17,27);
+      margin-left: (36rem/30);
+      line-height: (80rem/30);
+    }
+    .main3-a{
+     float: right;
+      font-size: (24rem/30);
+      color: rgb(0,160,220);
+      line-height: (80rem/30);
+      margin-right: (36rem/30);
+    }
+  }
+
+  .main3-bot{
+    width: (749rem/30);
+    height: (438rem/30);
+    background-color: #ffffff;
+    ul{
+      width: (749rem/30);
+      height: (438rem/30);
+    }
+    li{
+      width: (680rem/30);
+      height: (96rem/30);
+      border-bottom: 1px solid #dbdee1;
+      margin: 0 auto;
+      .main3-span3{
+        display: block;
+        float: left;
+        font-size: (28rem/30);
+        line-height: (96rem/30);
+        color: rgb(7,17,27);
+        //margin-left: (36rem/30);
+      }
+      .main3-right{
+        float: right;
+        //margin-right: (36rem/30);
+        line-height: (96rem/30);
+        .main3-span1{
+          font-size: (20rem/30);
+          color: red;
+          margin-right: (24rem/30);
+          b{
+            font-size: (28rem/30);
+            color: red;
+            font-weight: 700;
+          }
+        }
+        .main3-icon{
+          font-size: (48rem/30);
+          color: rgb(0,160,220);
+          margin-right: (24rem/30);
+          position: relative;
+          top: (8rem/30);
+          left: 0;
+        }
+        .main3-span2{
+          font-size: (20rem/30);
+          color: #666;
+          margin-right: (24rem/30);
+        }
+        .add1-icon1{
+          font-size: (48rem/30);
+          color: rgb(0,160,220);
+          position: relative;
+          top: (8rem/30);
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+
+

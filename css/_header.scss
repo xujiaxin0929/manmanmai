@@ -1,0 +1,125 @@
+.header{
+  width: (750rem/30);
+  height: (267rem/30);
+  //margin: $margin;
+  background: url("../uploads/wai-1.jpg") no-repeat;
+  background-size: (750rem/30) (267rem/30);
+  filter: blur(4px);
+  position: relative;
+}
+.mask{
+  width: (750rem/30);
+  height: (267rem/30);
+  //margin: $margin;
+  background-color: rgba(0,0,0,.6);
+  position:absolute;
+  top: 0;
+  left: 0;
+  .header-top{
+    width: (750rem/30);
+    height: (212rem/30);
+    overflow: hidden;
+    .header-left{
+      width: (128rem/30);
+      height: (128rem/30);
+      margin: (48rem/30) (47rem/30);
+      float: left;
+      img{
+        margin-top: (4rem/30);
+        width: (128rem/30);
+        height: (128rem/30);
+        background-size: (128rem/30) (128rem/30);
+      }
+    }
+    .header-right{
+      margin-left: (30rem/30);
+      .header-img1{
+        margin-top:(52rem/30) ;
+         width: (60rem/30);
+         height: (36rem/30);
+         background-size: (60rem/30) (36rem/30);
+       }
+      .header-h3{
+        font-size: (32rem/30);
+        color: $fontColor;
+      }
+      .header-p{
+        display:block;
+        color: $fontColor;
+        font: (24rem/30) "微软雅黑";
+        margin-top: (16rem/30);
+        font-weight: 200;
+      }
+      .header-img{
+        margin-top: (18rem/30);
+        width: (24rem/30);
+         height: (24rem/30);
+        background-size: (24rem/30) (24rem/30);
+      }
+      .header-span{
+        color: $fontColor;
+        font: (20rem/30) "微软雅黑";
+        font-weight: 200;
+      }
+    }
+    .header-five{
+      position: absolute;
+      top: (130rem/30);
+      right: (22rem/30);
+      width: (86rem/30);
+      height: (50rem/30);
+      background-color: rgba(0,0,0,.6);
+      border-radius: (50rem/30);
+      .five-span{
+        display: block;
+        color: $fontColor;
+        font-size: (18rem/30);
+        line-height:2;
+        text-align: center;
+      }
+    }
+
+  }
+  .header-bot{
+    width: (750rem/30);
+    height: (55rem/30);
+    background-color: #41403e;
+    overflow: hidden;
+    img{
+      margin-left: (18rem/30);
+      width: (44rem/30);
+      height: (24rem/30);
+      background-size: (44rem/30) (24rem/30);
+    }
+    .bot-cont{
+      line-height: (55rem/30);
+      font-size: (16rem/30);
+      color: $fontColor;
+    }
+  }
+}
+
+.nav{
+  width: (750rem/30);
+  height: (80rem/30);
+  background-color: #fff;
+  border-bottom: 2px solid #e3e4e6;
+  ul{
+    width: (750rem/30);
+    overflow: hidden;
+
+  }
+  li{
+    float: left;
+    width: (250rem/30);
+    text-align: center;
+    a{
+      color: #4a535a;
+      font-size: (26rem/30);
+      line-height: (80rem/30);
+      &:hover{
+        color: red;
+      }
+    }
+  }
+}

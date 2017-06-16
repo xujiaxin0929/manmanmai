@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+//变量
+@import "./setting";
+
+@import "./normalize";
+
+//清除样式
+@import "./base";
+
+//媒体查询
+@import "./media";
+
+//头部
+@import "./header";
+
+//底部
+@import "./footer";
+
+.mian6{
+  width: (750rem/30);
+  height: (1380rem/30);
+
+  .main6-top{
+    width: (680rem/30);
+    height: (114rem/30);
+    margin-top: (36rem/30);
+    margin-left: (36rem/30);
+    border-bottom: 1px solid rgba(7,17,27,.1);
+
+    .main6-left{
+      width: (440rem/30);
+      height: (80rem/30);
+      float: left;
+      .main6-h4{
+        font-size: (28rem/30);
+        color: rgb(7,17,27);
+      }
+      .main6-span{
+        display: inline-block;
+        margin-top: (16rem/30);
+        font-size: (20rem/30);
+        color: rgb(77,85,93);
+        margin-right: (16rem/30);
+        margin-top: (16rem/30);
+        .main6-img{
+          width: (30rem/30);
+          height: (29rem/30);
+          background-size: (30rem/30) (29rem/30);
+          position: relative;
+          top: (4rem/30);
+          left: 0;
+        }
+        .main6-b{
+          font-size: (20rem/30);
+          color: rgb(77,85,93);
+          margin-left: (24rem/30);
+          font-weight: normal;
+        }
+      }
+    }
+    .main6-right{
+      width: (80rem/30);
+      height: (80rem/30);
+      float: right;
+      //background-color: blue;
+      .heart-icon{
+        display: block;
+        font-size: (48rem/30);
+        color: rgb(240,20,20);
+        text-align: center;
+      }
+      .main6-sapn1{
+        font-size: (20rem/30);
+        color: rgb(77,85,93);
+        //text-align: center;
+      }
+    }
+  }
+  .main6-top1{
+    width: (750rem/30);
+    height: (150rem/30);
+    ul{
+      width: (750rem/30);
+      height: (90rem/30);
+      margin-top: (36rem/30);
+      overflow: hidden;
+    }
+    li{
+      float: left;
+      width: (248rem/30);
+      height: (82rem/30);
+      border-right: 1px solid rgba(7,17,27,.1);
+      text-align: center;
+      //line-height: (76rem/30);
+      &:nth-child(3){
+        border-right: none;
+      }
+      .main6-sapn2{
+        display: block;
+        font-size: (20rem/30);
+        color: rgb(147,153,159);
+      }
+      .main6-span3{
+        display: block;
+        font-size: (48rem/30);
+        color: (7,17,27);
+        margin-top: (8rem/30);
+        .main6-b1{
+          font-size: (20rem/30);
+          color: (7,17,27);
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .main6-top2{
+    width: (750rem/30);
+    height: (30rem/30);
+    border-bottom: 1px solid rgba(7,17,27,.1);
+    border-top: 1px solid rgba(7,17,27,.1);
+    background-color: #f3f5f7;
+  }
+  .main6-top3{
+    width: (680rem/30);
+    height: (350rem/30);
+    margin-left: (36rem/30);
+    border-bottom: 1px solid rgba(7,17,27,.1);
+    .main6-h5{
+      font-size: (28rem/30);
+      color: rgb(7,17,27);
+      margin-top: (36rem/30);
+    }
+    .main6-p1{
+      font: (24rem/30) "微软雅黑";
+      margin-left: (24rem/30);
+      line-height: (48rem/30);
+      margin-top: (12rem/30);
+      margin-right: (24rem/30);
+      color: rgb(240,20,20);
+    }
+  }
+  .main6-top4{
+    width: (750rem/30);
+    height: (680rem/30);
+    .main6-ul{
+      width: (680rem/30);
+      height: (680rem/30);
+      margin: 0 auto;
+    }
+    li{
+      width: (680rem/30);
+      height: (96rem/30);
+      border-bottom: 1px solid rgba(7,17,27,.1);
+      &:nth-child(7){
+        border-bottom: none;
+      }
+      .main6-a{
+        display: inline-block;
+        margin-top: (32rem/30);
+        margin-left: (24rem/30);
+        .main6-img1{
+          width: (32rem/30);
+          height: (32rem/30);
+          background-size: (32rem/30) (32rem/30);
+        }
+        .main6-span4{
+          font-size: (24rem/30);
+          color: rgb(7,17,27);
+          position: relative;
+          top: (-8rem/30);
+          left: 0;
+        }
+      }
+
+    }
+  }
+  .main6-top5{
+    width: (750rem/30);
+    height: (300rem/30);
+    .main6-h6{
+      font-size: (28rem/30);
+      color: rgb(7,17,27);
+      margin-top: (36rem/30);
+      margin-left: (36rem/30);
+    }
+    ul{
+      width: (678rem/30);
+      height: (180rem/30);
+      margin-left: (36rem/30);
+      margin-top: (24rem/40);
+      li{
+        width: (218rem/30);
+        height: (180rem/30);
+        float: left;
+        &:nth-child(1){
+          margin-right: (12rem/30);
+        }
+        &:nth-child(2){
+          margin-right: (12rem/30);
+        }
+        .main6-img2{
+          width: (218rem/30);
+          height: (180rem/30);
+          background-size: (218rem/30) (180rem/30);
+        }
+      }
+    }
+  }
+  .main6-top6{
+    width: (750rem/30);
+    height: (530rem/30);
+    ul{
+      width: (678rem/30);
+      height: (530rem/30);
+      margin: 0 auto;
+    }
+    li{
+      width: (678rem/30);
+      height: (85rem/30);
+      border-bottom: 1px solid rgba(7,17,27,.1);
+      &:nth-child(5){
+        border-bottom: none;
+      }
+      .main6-h7{
+        font-size: (28rem/30);
+        color: rgb(7,17,27);
+        line-height: (85rem/30);
+      }
+      .main6-span5{
+        display: block;
+        font-size: (24rem/30);
+        color: rgb(7,17,27);
+        line-height: (85rem/30);
+        margin-left: (24rem/30);
+      }
+    }
+  }
+
+}
+
+

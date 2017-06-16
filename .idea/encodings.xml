@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/_base.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/_header.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/_main1.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/_main2.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/_media.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/_setting.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/index2.scss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/index3.scss" charset="UTF-8" />
+  </component>
+</project>

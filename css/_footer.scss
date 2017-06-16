@@ -1,0 +1,90 @@
+.footer{
+  width: (750rem/30);
+  height: (96rem/30);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 22;
+  .footer-left{
+    float: left;
+    width: (540rem/30);
+    height: (96rem/30);
+    background-color: #141c27;
+    ul{
+      width: (466rem/30);
+      height: (96rem/30);
+      //overflow: hidden;
+      li{
+        width: (230rem/30);
+        height: (50rem/30);
+        float: left;
+        border-right: 1px solid #2c343f;
+        text-align: center;
+        margin-top: (26rem/30);
+
+        .footer-a{
+          position: relative;
+          .footer-ru{
+            width: (110rem/30);
+            height: (110rem/30);
+            background-color: #121b24;
+            border-radius: 50%;
+            position: absolute;
+            top: (-64rem/30);
+            left: (-50rem/30);
+            z-index: 10;
+            .footer-ru1{
+              width: (90rem/30);
+              height: (90rem/30);
+              background-color: #2b343d;
+              border-radius: 50%;
+              position: absolute;
+              top: (10rem/30);
+              left: (10rem/30);
+              .footer-icon{
+                color:#666;
+                line-height: (90rem/30);
+                font-size: (40rem/30);
+              }
+            }
+          }
+          .footer-span1{
+            font-size: (28rem/30);
+            color: #666;
+            line-height: (50rem/30);
+            font-weight: 700;
+           margin-left: (60rem/30);
+          }
+        }
+
+
+        .footer-span{
+          display: inline-block;
+          font-size: (20rem/30);
+          line-height: (50rem/30);
+          color: #666;
+          text-align: center;
+        }
+        &:last-child{
+          border-right: none;
+        }
+
+      }
+    }
+
+  }
+  .footer-right{
+    float: right;
+    width: (210rem/30);
+    height: (96rem/30);
+    background-color: #2b343b;
+    .footer-span2{
+      display: block;
+      font-size: (28rem/30);
+      font-weight: 700;
+      color: #666;
+      line-height: (96rem/30);
+      text-align: center;
+    }
+  }
+}

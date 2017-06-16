@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+//变量
+@import "./setting";
+
+@import "./normalize";
+
+//清除样式
+@import "./base";
+
+//媒体查询
+@import "./media";
+
+//头部
+@import "./header";
+
+//中间
+@import "./main1";
+
+//中二
+@import "./main2";
+
+//底部
+@import "./footer";

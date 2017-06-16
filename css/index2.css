@@ -1,0 +1,787 @@
+@charset "UTF-8";
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0; }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+* {
+  -webkit-tap-highlight-color: transparent; }
+
+html, body, ul, dl, dd, dt, ol, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media only screen and (width: 412px) {
+  html {
+    font-size: 16.68px; } }
+@media only screen and (width: 320px) {
+  html {
+    font-size: 12.8px; } }
+@media only screen and (width: 414px) {
+  html {
+    font-size: 16.56px; } }
+@media only screen and (width: 375px) {
+  html {
+    font-size: 15px; } }
+@media only screen and (width: 360px) {
+  html {
+    font-size: 14.64px; } }
+@media only screen and (width: 768px) {
+  html {
+    font-size: 30.72px; } }
+@media only screen and (width: 1024px) {
+  html {
+    font-size: 40.96px; } }
+.header {
+  width: 25rem;
+  height: 8.9rem;
+  background: url("../uploads/wai-1.jpg") no-repeat;
+  background-size: 25rem 8.9rem;
+  filter: blur(4px);
+  position: relative; }
+
+.mask {
+  width: 25rem;
+  height: 8.9rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .mask .header-top {
+    width: 25rem;
+    height: 7.06667rem;
+    overflow: hidden; }
+    .mask .header-top .header-left {
+      width: 4.26667rem;
+      height: 4.26667rem;
+      margin: 1.6rem 1.56667rem;
+      float: left; }
+      .mask .header-top .header-left img {
+        margin-top: 0.13333rem;
+        width: 4.26667rem;
+        height: 4.26667rem;
+        background-size: 4.26667rem 4.26667rem; }
+    .mask .header-top .header-right {
+      margin-left: 1rem; }
+      .mask .header-top .header-right .header-img1 {
+        margin-top: 1.73333rem;
+        width: 2rem;
+        height: 1.2rem;
+        background-size: 2rem 1.2rem; }
+      .mask .header-top .header-right .header-h3 {
+        font-size: 1.06667rem;
+        color: #fff; }
+      .mask .header-top .header-right .header-p {
+        display: block;
+        color: #fff;
+        font: 0.8rem "微软雅黑";
+        margin-top: 0.53333rem;
+        font-weight: 200; }
+      .mask .header-top .header-right .header-img {
+        margin-top: 0.6rem;
+        width: 0.8rem;
+        height: 0.8rem;
+        background-size: 0.8rem 0.8rem; }
+      .mask .header-top .header-right .header-span {
+        color: #fff;
+        font: 0.66667rem "微软雅黑";
+        font-weight: 200; }
+    .mask .header-top .header-five {
+      position: absolute;
+      top: 4.33333rem;
+      right: 0.73333rem;
+      width: 2.86667rem;
+      height: 1.66667rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 1.66667rem; }
+      .mask .header-top .header-five .five-span {
+        display: block;
+        color: #fff;
+        font-size: 0.6rem;
+        line-height: 2;
+        text-align: center; }
+  .mask .header-bot {
+    width: 25rem;
+    height: 1.83333rem;
+    background-color: #41403e;
+    overflow: hidden; }
+    .mask .header-bot img {
+      margin-left: 0.6rem;
+      width: 1.46667rem;
+      height: 0.8rem;
+      background-size: 1.46667rem 0.8rem; }
+    .mask .header-bot .bot-cont {
+      line-height: 1.83333rem;
+      font-size: 0.53333rem;
+      color: #fff; }
+
+.nav {
+  width: 25rem;
+  height: 2.66667rem;
+  background-color: #fff;
+  border-bottom: 2px solid #e3e4e6; }
+  .nav ul {
+    width: 25rem;
+    overflow: hidden; }
+  .nav li {
+    float: left;
+    width: 8.33333rem;
+    text-align: center; }
+    .nav li a {
+      color: #4a535a;
+      font-size: 0.86667rem;
+      line-height: 2.66667rem; }
+      .nav li a:hover {
+        color: red; }
+
+.main {
+  width: 25rem; }
+
+.main-left {
+  float: left;
+  width: 5.33333rem;
+  height: 36.66667rem; }
+  .main-left ul {
+    width: 5.33333rem;
+    overflow: hidden; }
+  .main-left li {
+    width: 5.33333rem;
+    height: 3.6rem;
+    line-height: 1.8rem;
+    background-color: #f4f5f7;
+    border-bottom: 1px solid #dddee0;
+    text-align: center; }
+    .main-left li:hover {
+      background-color: #fff;
+      font-weight: 700; }
+    .main-left li a {
+      display: block;
+      font-size: 0.8rem;
+      color: #07111b;
+      padding: 0.93333rem 0.73333rem;
+      box-sizing: border-box; }
+      .main-left li a img {
+        width: 0.8rem;
+        height: 0.8rem;
+        background-size: 0.8rem 0.8rem; }
+    .main-left li:nth-child(2) {
+      line-height: 0.93333rem; }
+
+.main-right {
+  float: right;
+  width: 19.66667rem;
+  height: 36.66667rem; }
+  .main-right ul {
+    width: 19.66667rem; }
+  .main-right li {
+    width: 19.66667rem;
+    overflow: hidden; }
+    .main-right li h3 {
+      width: 19.6rem;
+      height: 1.73333rem;
+      line-height: 1.73333rem;
+      background-color: #f4f5f7;
+      color: #a0a5a9;
+      font-size: 0.8rem;
+      padding-left: 0.8rem;
+      box-sizing: border-box;
+      border-left: 2px solid #d9dce1; }
+    .main-right li .ul-left {
+      width: 5.06667rem;
+      height: 7.33333rem;
+      float: left; }
+      .main-right li .ul-left img {
+        width: 3.8rem;
+        height: 3.8rem;
+        background-size: 3.8rem 3.8rem;
+        margin-left: 1.2rem;
+        margin-top: 1.2rem; }
+    .main-right li .ul-right {
+      float: right;
+      width: 14.16667rem;
+      height: 7.33333rem; }
+      .main-right li .ul-right h5 {
+        margin-top: 1.2rem;
+        color: #031021;
+        font: 0.86667rem "微软雅黑";
+        font-weight: 700; }
+      .main-right li .ul-right .ul-span {
+        display: block;
+        color: #a6aaad;
+        font-size: 0.66667rem;
+        line-height: 0.66667rem;
+        margin-top: 0.4rem; }
+      .main-right li .ul-right .ul-span1, .main-right li .ul-right .ul-span2 {
+        color: #a6aaad;
+        font-size: 0.66667rem;
+        line-height: 0.66667rem; }
+      .main-right li .ul-right p {
+        margin-top: 0.26667rem; }
+      .main-right li .ul-right .ul-span3 {
+        display: inline-block;
+        font-size: 0.66667rem;
+        color: red;
+        margin-top: 0.4rem; }
+        .main-right li .ul-right .ul-span3 b {
+          font-size: 0.8rem;
+          color: red;
+          font-weight: 700; }
+      .main-right li .ul-right del {
+        display: inline-block;
+        font-size: 0.66667rem;
+        color: #a6aaad;
+        font-weight: 700; }
+      .main-right li .ul-right .add-icon {
+        font-size: 1.53333rem;
+        color: #00a0dc;
+        margin-left: 7.2rem; }
+      .main-right li .ul-right .ul-icon {
+        font-size: 1.53333rem;
+        color: #00a0dc;
+        margin-left: 6.13333rem; }
+      .main-right li .ul-right .add-icon1 {
+        font-size: 1.53333rem;
+        color: #00a0dc;
+        margin-left: 0.66667rem; }
+      .main-right li .ul-right .ul-span5 {
+        display: inline-block;
+        font-size: 0.6rem;
+        color: #a6aaad;
+        position: relative;
+        top: -0.33333rem;
+        left: 0.33333rem; }
+      .main-right li .ul-right .line {
+        display: block;
+        width: 17.26667rem;
+        height: 1px;
+        background-color: #a6aaad;
+        margin: 0 auto;
+        position: relative;
+        top: 1.5rem;
+        left: -4.33333rem; }
+
+.main2 {
+  position: relative; }
+  .main2 .food {
+    filter: blur(8px); }
+
+.main2-mask {
+  width: 24.96667rem;
+  height: 50rem;
+  background-color: rgba(7, 17, 27, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  position: fixed; }
+  .main2-mask .main2-h4 {
+    color: #fff;
+    font-size: 1.06667rem;
+    margin-top: 4.26667rem;
+    text-align: center; }
+  .main2-mask ul {
+    overflow: hidden;
+    margin-left: 4.93333rem;
+    margin-top: 0.26667rem; }
+  .main2-mask li {
+    float: left;
+    padding: 0.66667rem;
+    box-sizing: border-box; }
+  .main2-mask .main2-line {
+    width: 20.16667rem;
+    margin-left: 2.4rem; }
+    .main2-mask .main2-line .main2-span {
+      float: left;
+      width: 7.46667rem;
+      height: 1px;
+      background-color: #61676d;
+      margin-top: 1.66667rem; }
+    .main2-mask .main2-line .main2-span1 {
+      float: right;
+      width: 7.46667rem;
+      height: 1px;
+      background-color: #61676d;
+      margin-top: 1.66667rem; }
+    .main2-mask .main2-line .main2-span2 {
+      font: 1.06667rem "微软雅黑";
+      color: #fff;
+      line-height: 3;
+      text-align: center;
+      margin-left: 0.53333rem;
+      font-weight: 700; }
+    .main2-mask .main2-line .main2-p {
+      color: #fff;
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      line-height: 2; }
+  .main2-mask .main2-ul {
+    width: 20.16667rem;
+    margin: 0; }
+    .main2-mask .main2-ul li {
+      width: 20.16667rem;
+      padding: 0;
+      padding: 0.4rem;
+      box-sizing: border-box; }
+      .main2-mask .main2-ul li img {
+        width: 1.06667rem;
+        height: 1.06667rem;
+        background-size: 1.06667rem 1.06667rem; }
+      .main2-mask .main2-ul li span {
+        font: 0.8rem "微软雅黑";
+        color: #fff;
+        position: relative;
+        top: -0.26667rem;
+        margin-left: 0.4rem; }
+  .main2-mask .main2-remove {
+    display: block;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    bottom: -5.93333rem;
+    text-align: center; }
+
+.footer {
+  width: 25rem;
+  height: 3.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 22; }
+  .footer .footer-left {
+    float: left;
+    width: 18rem;
+    height: 3.2rem;
+    background-color: #141c27; }
+    .footer .footer-left ul {
+      width: 15.53333rem;
+      height: 3.2rem; }
+      .footer .footer-left ul li {
+        width: 7.66667rem;
+        height: 1.66667rem;
+        float: left;
+        border-right: 1px solid #2c343f;
+        text-align: center;
+        margin-top: 0.86667rem; }
+        .footer .footer-left ul li .footer-a {
+          position: relative; }
+          .footer .footer-left ul li .footer-a .footer-ru {
+            width: 3.66667rem;
+            height: 3.66667rem;
+            background-color: #121b24;
+            border-radius: 50%;
+            position: absolute;
+            top: -2.13333rem;
+            left: -1.66667rem;
+            z-index: 10; }
+            .footer .footer-left ul li .footer-a .footer-ru .footer-ru1 {
+              width: 3rem;
+              height: 3rem;
+              background-color: #2b343d;
+              border-radius: 50%;
+              position: absolute;
+              top: 0.33333rem;
+              left: 0.33333rem; }
+              .footer .footer-left ul li .footer-a .footer-ru .footer-ru1 .footer-icon {
+                color: #666;
+                line-height: 3rem;
+                font-size: 1.33333rem; }
+          .footer .footer-left ul li .footer-a .footer-span1 {
+            font-size: 0.93333rem;
+            color: #666;
+            line-height: 1.66667rem;
+            font-weight: 700;
+            margin-left: 2rem; }
+        .footer .footer-left ul li .footer-span {
+          display: inline-block;
+          font-size: 0.66667rem;
+          line-height: 1.66667rem;
+          color: #666;
+          text-align: center; }
+        .footer .footer-left ul li:last-child {
+          border-right: none; }
+  .footer .footer-right {
+    float: right;
+    width: 7rem;
+    height: 3.2rem;
+    background-color: #2b343b; }
+    .footer .footer-right .footer-span2 {
+      display: block;
+      font-size: 0.93333rem;
+      font-weight: 700;
+      color: #666;
+      line-height: 3.2rem;
+      text-align: center; }
+
+/*# sourceMappingURL=index2.css.map */

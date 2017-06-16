@@ -1,0 +1,102 @@
+
+.main2{
+  position: relative;
+  .food{
+    filter: blur(8px);
+  }
+}
+.main2-mask{
+   width: (749rem/30);
+   height: (1500rem/30);
+   background-color: rgba(7,17,27,.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  position: fixed;
+  .main2-h4{
+    color: $fontColor;
+    font-size: (32rem/30);
+    margin-top: (128rem/30);
+    text-align: center;
+  }
+  ul{
+    overflow: hidden;
+    margin-left: (148rem/30);
+    margin-top: (8rem/30);
+  }
+  li{
+    float: left;
+    padding: (20rem/30);
+    box-sizing: border-box;
+  }
+  .main2-line{
+    width: (605rem/30);
+    margin-left: (72rem/30);
+    .main2-span{
+      float: left;
+      width: (224rem/30);
+      height: 1px;
+      background-color:#61676d;
+      margin-top: (50rem/30);
+
+    }
+    .main2-span1{
+      float: right;
+      width: (224rem/30);
+      height: 1px;
+      background-color:#61676d;
+      margin-top: (50rem/30);
+    }
+    .main2-span2{
+      font: (32rem/30) "微软雅黑";
+      color: $fontColor;
+      line-height: 3;
+      text-align: center;
+      margin-left: (16rem/30);
+      font-weight: 700;
+    }
+    .main2-p{
+      color: $fontColor;
+      margin-top: (12rem/30);
+      font-size: (24rem/30);
+      line-height: 2;
+    }
+
+  }
+  .main2-ul{
+    width: (605rem/30);
+    margin: 0;
+    li{
+      width: (605rem/30);
+      padding: 0;
+      padding: (12rem/30);
+      box-sizing: border-box;
+        img{
+          width: (32rem/30);
+          height: (32rem/30);
+          background-size: (32rem/30) (32rem/30);
+        }
+        span{
+          font: (24rem/30) "微软雅黑";
+          color: $fontColor;
+          //line-height: (24rem/30);
+          position: relative;
+          top: (-8rem/30);
+          margin-left: (12rem/30);
+
+        }
+
+    }
+  }
+
+  .main2-remove{
+    display: block;
+    font-size: (64rem/32);
+    color: rgba(255,255,255,.5);
+    position: relative;
+    bottom: (-178rem/30);
+    text-align: center;
+  }
+
+}
